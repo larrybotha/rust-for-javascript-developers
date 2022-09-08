@@ -32,3 +32,4 @@ https://app.rust-for-js.dev/posts/00-hello-rust/
   ```
 - string literals in Rust always use double-quotes - `"..."`
 - `println!` is similar to `console.log` in JS
+- semicolons in Rust are not optional, as opposed to in Javascript
