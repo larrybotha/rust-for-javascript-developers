@@ -7,6 +7,14 @@ https://app.rust-for-js.dev/posts/00-hello-rust/
 - `rustup` is used to install the Rust toolchain, including `cargo` for crates
 - `rustup` allows switching between different versions of Rust - I imagine in
   the same way as `nvm` does
+- to create a new Rust project, use `cargo new [dir]`:
+  ```bash
+  $ cargo new awesome-project
+  $ tree
+  awesome-project
+  ├── Cargo.toml
+  └── src
+  ```
 - `rustc` is Rust's compiler. To compile a minimal Rust application:
 
   ```shell
