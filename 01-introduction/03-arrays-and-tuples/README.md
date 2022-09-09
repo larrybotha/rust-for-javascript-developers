@@ -34,7 +34,9 @@ https://app.rust-for-js.dev/posts/03-arrays-and-tuples/
 
   ```rust
   let xs = [1,2,3,4,5];
-  let [first, ..., last] =
+  let [first, ..., last] = xs;
+
+  println!("first {first} to last {last}");
   ```
 
 ### Arrays
