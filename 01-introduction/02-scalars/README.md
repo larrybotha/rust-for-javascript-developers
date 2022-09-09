@@ -23,6 +23,12 @@ https://app.rust-for-js.dev/posts/02-scalars/
   ```
 - `::` operates similarly to the dot accessor on objects in Javascript, and
   potentially like static methods in Python...?
+- `println!` accepts named arguments for a Python-like interpolation in
+  formatting macros:
+  ```rust
+  let my_var = 3;
+  println!("the value of my_var is {my_var}");
+  ```
 
 ### Integers
 
@@ -37,3 +43,7 @@ https://app.rust-for-js.dev/posts/02-scalars/
 
 - floating point numbers may only be either `f32` or `f64`
 - floats can be positive or negative
+
+## Links and resources
+
+- [Implicit named arguments for formatting macros](https://github.com/rust-lang/rfcs/pull/2795)
